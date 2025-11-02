@@ -1,0 +1,30 @@
+[
+  {
+    "id": "MS-2025-1107-01",
+    "title": "定期メンテナンス（DBパッチ適用）",
+    "group": "A環境",
+    "service": "会員ポイントASP",
+    "components": [
+      "DBクラスタA",
+      "レプリカ"
+    ],
+    "start": "2025-11-07T13:00:00Z",
+    "end": "2025-11-07T15:30:00Z",
+    "status": "予定",
+    "severity": "中",
+    "impact": "メンテナンス時間中は管理画面が断続的に利用不可。APIは最大5分の瞬断が複数回発生。",
+    "description": "セキュリティパッチ適用とスキーマ最適化を実施します。",
+    "tags": [
+      "定期",
+      "DB",
+      "セキュリティ"
+    ],
+    "links": [
+      {
+        "label": "ステータスページ",
+        "url": "https://status.example.com"
+      }
+    ],
+    "published": true
+  }
+]
